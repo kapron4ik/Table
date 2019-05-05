@@ -1,0 +1,18 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid lightgray;
+}
+
+th {
+    font-weight: normal;
+    color: #039;
+    padding: 10px 15px;
+}
+td {
+    color: #669;
+    border-top: 1px solid #e8edff;
+    padding: 10px 15px;
+}
+tr:nth-child(2n) {background: #e8edff;}
+
+table td:nth-child(5n) {text-align: center;}
